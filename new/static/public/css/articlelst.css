@@ -1,0 +1,11 @@
+.articlelst>button{float: right;margin: 10px 0;margin-right: 1%;padding: 5px 15px;background: #42b983;color: #fff;border: 0;font-size: 12px;}
+table{
+  width: 98%;margin: 15px auto;/* border: 1px solid #ccc; */
+}
+table tr:first-child *{font-weight: 600;color: #000000;}
+table tr{line-height: 40px;border-bottom: 1px solid #fff;background: #ccc;}
+table tr td{border-right: 1px solid #fff;}
+table tr td:last-child{width: 300px;}
+table tr td span{cursor: pointer;}
+table tr td span:last-child{color: red;}
+table tr:nth-child(2n+0){background: #42b983;color: #fff;}

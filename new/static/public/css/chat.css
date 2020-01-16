@@ -1,0 +1,12 @@
+.chat>textarea{
+width: 100%;height: 100px;position: absolute;
+bottom: 0;display: block;left: 0;padding: 10px;
+}
+.chat>ul{width: 100%;height: calc(100% - 120px);padding: 20px;overflow: auto;}
+.chat>ul li{float: left;padding: 20px;width: 60%;background: rgba(23,22,14,.5);}
+.chat>ul li.other{
+  float: right;
+  background: rgba(123,22,114,.5);
+}
+.chat>ul li.other p{text-align: right;}
+.chat>ul li p{text-align: left;}

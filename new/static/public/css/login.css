@@ -1,0 +1,11 @@
+body{background: #fcfaf7}
+.logbox{position: fixed;z-index: 10;width: 100%;height: 100%;background: #fff;top: 0;left: 0;}
+.login{height: 690px;width: 1150px;margin: 0 auto;border: 1px solid #ccc;border-radius: 10px;margin-top: 95px;background: #fff;border-left: 0;}
+.login >*{height: 100%;overflow: hidden;}
+.login .l-left{width: 645px;float: left;border-bottom-left-radius: 8px;border-top-left-radius: 8px;}
+.login .l-right{width: calc(100% - 645px);float: left;box-sizing: border-box;text-align: center;}
+.login .l-right>img{margin-top: 20px;}
+.login .l-right input,.l-right button{display: block;width: 335px;height: 60px;margin:0 auto;font-size: 14px;outline: none; background: #fff url(../images/mima.png) no-repeat 3% center;text-indent: 45px; border: 1px solid #dcdcdc;}
+.l-right input[type=text]{border-bottom: 1px solid #ffb822;background: #fff url(../images/userd.png) no-repeat 3% center;}
+.l-right button{height: 40px;background: #fff;text-indent: 0;background: #ffb822;margin-top: 40px;color: #fff;font-size: 16px;border-color: #ffb822}
+.l-right p{font-size: 14px;color: #999;padding-top: 55px;}

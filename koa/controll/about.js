@@ -1,0 +1,1 @@
+module.exports = async function(ctx, url) {await ctx.render(url.substr(1,url.length - 1))};

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<% list.forEach(function(user){ %>
+		    <%=user.id%>1
+		    <%=user.username%>
+		    <%=user.pass%>
+		  <% }); %>
+		about,nihaome1
+		<% if (name == 123) { %>
+		  <!-- <h2>123</h2> -->
+		<% } %>
+		<%- include('index.html',{name:1});%>
+		<img src="/1.png" alt="">
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="aaa" id="" value="123" />
+			<input type="text" name="asaa" id="" value="123" />
+			<input type="submit" value="提交"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+.articles{width: 98%;margin: 0 auto;min-height: 100%;}
+.articles>h5{text-align: left;font-size: 16px;font-weight: 600;line-height: 40px;}
+.form{border: 1px solid #ccc;}
+.form>div{overflow: hidden;margin-top: 25px;}
+.form>div span{width: 200px;float: left;text-align: right;padding-top: 6px;}
+.form>div p{float: left;margin-left: 25px;}
+.form>div p input,.form>div p select{width: 700px;height: 30px;}
+/* #content{height: 504px;} */
+.form>div >div#cont{width: calc(100% - 305px);float: left;margin-left: 25px;max-height: 700px;}
+#edui1{height: 100%;}
+.form>button{width: 300px;line-height: 35px;margin: 35px;}
