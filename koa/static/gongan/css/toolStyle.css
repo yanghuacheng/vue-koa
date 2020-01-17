@@ -1,0 +1,50 @@
+
+/* 李蒋 */
+/* 工具栏的一些特有样式 */
+.fllowPoint{
+    position: absolute;
+    user-select: none; /*禁止选中*/
+    pointer-events: none; /*鼠标穿透*/
+    display: none;
+    background-image: url("../gongju/biaoshix.png") ;
+    /* background-image: url(../gongju/biaoshix.png); */
+    background-repeat:no-repeat;
+    /* background-size: 30px 38px; */
+    z-index: 99999;
+    width: 50px;
+    height: 50px;
+}
+.showText{
+    user-select: none; /*禁止选中*/
+    /* pointer-events: none; 鼠标穿透 */
+    position: absolute;
+    min-width: 100px;
+    max-width: 160px;
+    min-height: 30px;
+    max-height: 80px;
+    text-align: center;
+    padding: 2px 2px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    background-color: #ffffff;
+    z-index: 999;
+    display: none;
+    color: orange;
+
+}
+.showText span{
+    /* position: relative; */
+    min-height: 30px;
+    min-width: 100px;
+    max-width: 160px;
+    color: orange;
+    font-size: 12px;
+}
+.showText input{
+    /* position: relative; */
+    min-width: 100px;
+    max-width: 160px;
+    border: none;
+    text-align: center;
+    min-height: 30px;
+}

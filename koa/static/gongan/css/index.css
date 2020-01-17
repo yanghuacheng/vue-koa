@@ -1,0 +1,285 @@
+
+.submitBtn {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	border: none;
+	color: #fff;
+	padding: 0 40px;
+	font-size: 18px;
+	background:
+	-webkit-gradient(linear, right top, left bottom, from(#0b73c4), to(#034984));
+	
+	-webkit-linear-gradient(right top, #0b73c4, #034984);
+	
+	-moz-linear-gradient(right top, #0b73c4, #034984);
+	
+	-o-linear-gradient(right top, #0b73c4, #034984);
+
+	linear-gradient(right top, #0b73c4, #034984);
+}
+
+
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.bjt {
+	background: url(../images/login/星空.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-animation:scaleDraw 40s linear infinite;
+}
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(1);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(2);
+            }
+        }
+
+.adminlogin{
+	background: url(../images/login/bk.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	}
+
+
+
+
+header {
+	width: 120rem;
+	height: 3.4375rem;
+	position: fixed;
+	top: 0;
+	background: url(../images/top.png) no-repeat top center;
+	background-size: 100% 100%;
+	z-index: 10;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+header img {
+	margin-left: 425px;
+	margin-top: 10px;
+}
+
+.login {
+	background: url(../images/login/dlbk.png) no-repeat;
+	background-size: 100% 100%;
+	width: 610px;
+	height: 415px;
+	margin-top: 300px;
+	position: relative;
+}
+
+.login p {
+	background: url(../images/login/输入框.png) no-repeat;
+	background-size: 100% 100%;
+	width: 400px;
+	height: 49px;
+	margin-bottom: 30px;
+	position: absolute;
+}
+
+.login p:nth-child(1) {
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.login p:nth-child(2) {
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.login input {
+	width: 400px;
+	height: 49px;
+	margin: 0 auto;
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	color: #FFFFFF;
+	padding: 0px 55px;
+	position: relative;
+}
+
+.login font {
+	position: absolute;
+	display: block;
+	color: #79ebff;
+	margin-top: -36px;
+	margin-left: 7px;
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+
+.submitBtn {
+	margin-top: 247px;
+	background: url(../images/login/登录按钮.png) no-repeat;
+	background-size: 100% 100%;
+	width: 404px;
+	height: 50px;
+	border-radius: 0;
+	margin-left: 100px;
+	letter-spacing: 3px;
+	font-size: 18px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	cursor: pointer;
+}
+.submitBtn.dlan{background: url(../images/login/登录按钮按下.png) no-repeat;background-size: 100% 100%;width: 404px;height: 50px;}
+
+
+.login b {
+	color: #b2b2aa;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	display: block;
+	width: 200px;
+	margin-top: 15px;
+}
+
+
+
+
+.alertmodel{width:280px;height: 168px; background:url(../images/login/提示.png) no-repeat;background-size:100% 100%;position: fixed;z-index: 10000000;left: 50%;transform: translateX(-50%); top: -100%;display: inline-block;border-radius: 10px;overflow: hidden;transition: all .5s ease;	}
+.alertmodel.show{top: 40%;}
+.alertmodel p{text-align: center;padding: 10px;color: #FFFFFF;margin: 55px 20px;}
+.alertmodel button{width: 100px;height:30px ;margin-top: -25px;display: block;border: 0;padding: 12px 0;background:url(../images/login/guanbi.png) no-repeat;background-size:100% 100%;}
+
+
+
+
+/* 星星特效 */
+ #stars {
+      margin: 0 auto;
+      max-width: 1600px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+    }
+.stars div{
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(../images/login/流星.png) no-repeat;
+	background-size:100% 100% ;
+	position: relative;
+	opacity: 0;
+	/*过渡动画*/
+	}
+.stars div:nth-child(1){
+	top: -400px;
+	left: -30%;
+	animation: star-fall 1.5s linear infinite;
+	-webkit-animation: star-fall 1.5s linear infinite;
+	-moz-animation: star-fall 1.5s linear infinite;
+}
+.stars div:nth-child(2){
+	top: -100px;
+	left: -50%;
+	animation: star-fall 3s linear infinite;
+	-webkit-animation: star-fall 3s linear infinite;
+	-moz-animation: star-fall 3s linear infinite;
+}
+.stars div:nth-child(3){
+	top:-50px;
+	left: -30%;
+	animation: star-fall 2s linear infinite;
+	-webkit-animation: star-fall 2s linear infinite;
+	-moz-animation: star-fall 2s linear infinite;
+}
+.stars div:nth-child(4){
+	top: -100px;
+	left: 20%;
+	animation: star-fall 3s linear infinite;
+	-webkit-animation: star-fall 3s linear infinite;
+	-moz-animation: star-fall 3s linear infinite;
+}
+.stars div:nth-child(5){
+	top: -600px;
+	left: 20%;
+	animation: star-fall 1.5s linear infinite;
+	-webkit-animation: star-fall 1.5s linear infinite;
+	-moz-animation: star-fall 1.5s linear infinite;
+}
+
+.stars div:nth-child(6){
+	top: 100px;
+	left: -15%;
+	animation: star-fall 1.6s linear infinite;
+	-webkit-animation: star-fall 1.6s linear infinite;
+	-moz-animation: star-fall 1.6s linear infinite;
+}
+
+/* .liuxing:after {
+	content: '';
+	display: block;
+	border: 0px solid #fff;
+	border-width: 0px 90px 2px 90px;
+	border-color: transparent transparent transparent rgba(255, 255, 255, .5);
+	box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1);
+	
+	transform: rotate(-45deg) translate3d(1px, 3px, 0);
+	-webkit-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+	-moz-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+	transform-origin: 0% 100%;
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+} */
+
+ @keyframes star-fall {
+      0% {
+        opacity: 0;
+        transform: scale(0.8) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+      }
+      50% {
+        opacity: 1;
+        transform: translate3d(300px, -200px, 100);
+        -webkit-transform: translate3d(200px, -200px, 0);
+        -moz-transform: translate3d(-200px, 200px, 0);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 300px, 0);
+        -webkit-transform: scale(1.2) translate3d(300px, -300px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 300px, 0);
+      }
+    }
+	
+#tishi{
+		display: none;font-size: 14px;color: #ff4242;margin-top: 15px;margin: auto;
+		padding: 15px 0;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+}
+#tishi img{
+	content: url(../right/error.png);
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+input::-webkit-input-placeholder{
+                color: #fff;
+				text-align: center;
+}

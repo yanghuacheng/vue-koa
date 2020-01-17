@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 左弹窗 */
+.container-left {
+    width: 291px;
+    height: 463px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg\ 2.png);
+    background-repeat: no-repeat;
+
+}
+
+.control-Top {
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.control-Top img {
+    margin: 0 5%;
+    vertical-align: middle;
+}
+
+/* 内容 */
+.control-content ul {
+    color: #fff;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 5%;
+}
+
+.control-content ul li {
+    width: 85%;
+    border-bottom: 1px solid #195f85;
+}
+
+.control-content ul li div {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.control-content ul li div img {
+    width: 25px;
+}
+
+.checkbox-custom {
+    position: relative;
+    padding: 0 15px 0 25px;
+    margin-bottom: 7px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.checkbox-custom input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    margin: -6px 0 0 0;
+    top: 50%;
+    left: 20px;
+}
+
+.checkbox-custom .label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    margin-top: -9px;
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #bbb;
+    background: transparent;
+}
+
+.checkbox-custom .label_other:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    margin-top: -9px;
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #21aeff;
+    background: transparent;
+}
+
+.checkbox-custom input[type="checkbox"]:checked+.label:after {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+    top: 21px;
+    left: 180px;
+    margin-top: -5px;
+    font-size: 11px;
+    line-height: 16px;
+    width: 19px;
+    height: 18px;
+    color: #fff;
+    background: #21aeff;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.checkbox-custom input[type="checkbox"]:checked+.label_other:after {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+    top: 21px;
+    left: 180px;
+    margin-top: -5px;
+    font-size: 11px;
+    line-height: 16px;
+    width: 19px;
+    height: 18px;
+    color: #fff;
+    background: #21aeff;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.checkbox-custom .label {
+    cursor: pointer;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-bottom: 0;
+}

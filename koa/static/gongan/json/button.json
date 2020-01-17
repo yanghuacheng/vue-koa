@@ -1,0 +1,43 @@
+{
+		"body": {
+			"object": {
+				"camera": {
+					"cameraId": "44030552001320122307",
+					"name": "深南大道东往西世界之窗公交车站枪机",
+					"position": {
+						"latitude": 22.536793,
+						"longitude": 113.9742
+					}
+				},
+				"capturedTime": 1571204839000,
+				"faceInfo": {
+					"end": {
+						"x": 907,
+						"y": 954
+					},
+					"image": {
+						"height": 1080,
+						"url": "images/bd.png",
+						"width": 1920
+					},
+					"quality": -1,
+					"start": {
+						"x": 849,
+						"y": 897
+					}
+				},
+				"image": {
+					"height": 1080,
+					"url": "images/xyren.png",
+					"width": 1920
+				},
+				"target": [{
+					"score": 0.8033157,
+					"url": "images/xyren.png"
+				},{
+					"score": 0.8033157,
+					"url": "images/xyren.png"
+				}]
+			}
+		}
+	}

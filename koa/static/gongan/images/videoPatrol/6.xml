@@ -1,0 +1,58 @@
+<CameraTour>
+    <Version>1</Version>
+    <Waypoint ID="0">
+        <Duration>5.000000</Duration>
+        <X>7217.548303</X>
+        <Y>4981.877772</Y>
+        <Z>41.832056</Z>
+        <Heading>87.452087</Heading>
+        <Pitch>-12.204255</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlyLinear</FlyMode>
+        <WKT>UNKNOWNCS[&quot;unnamed&quot;]</WKT>
+    </Waypoint>
+    <Waypoint ID="1">
+        <Duration>5.000000</Duration>
+        <X>7288.089878</X>
+        <Y>4979.844849</Y>
+        <Z>41.832056</Z>
+        <Heading>81.191637</Heading>
+        <Pitch>-11.631358</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlyLinear</FlyMode>
+        <WKT>UNKNOWNCS[&quot;unnamed&quot;]</WKT>
+    </Waypoint>
+    <Waypoint ID="2">
+        <Duration>5.000000</Duration>
+        <X>7489.286665</X>
+        <Y>4935.444653</Y>
+        <Z>41.832056</Z>
+        <Heading>80.408293</Heading>
+        <Pitch>-12.490698</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlyLinear</FlyMode>
+        <WKT>UNKNOWNCS[&quot;unnamed&quot;]</WKT>
+    </Waypoint>
+    <Waypoint ID="3">
+        <Duration>5.000000</Duration>
+        <X>7643.465479</X>
+        <Y>4865.593093</Y>
+        <Z>45.860401</Z>
+        <Heading>45.735905</Heading>
+        <Pitch>-8.479311</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlyLinear</FlyMode>
+        <WKT>UNKNOWNCS[&quot;unnamed&quot;]</WKT>
+    </Waypoint>
+    <Waypoint ID="4">
+        <Duration>5.000000</Duration>
+        <X>7725.942339</X>
+        <Y>4932.637880</Y>
+        <Z>45.860401</Z>
+        <Heading>61.935905</Heading>
+        <Pitch>-8.479311</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlyLinear</FlyMode>
+        <WKT>UNKNOWNCS[&quot;unnamed&quot;]</WKT>
+    </Waypoint>
+</CameraTour>

@@ -82,7 +82,7 @@ export default {
         _this.showmsg('请选择缩略图', true);
         return;
       }
-      this.apiaxio('post', 'http://192.168.188.219:3000/setdata?type=' + type, _this.query, function(res) {
+      this.apiaxio('post', 'http://localhost:3000/setdata?type=' + type, _this.query, function(res) {
         if (res.data.success) {
           _this.showmsg('操作成功！');
           _this.$router.push('/articlelst');
@@ -91,7 +91,7 @@ export default {
     },
     getdata: function(id) {
       var _this = this;
-      this.apiaxio('get', 'http://192.168.188.219:3000/getdata?id=' + id, null, function(res) {
+      this.apiaxio('get', 'http://localhost:3000/getdata?id=' + id, null, function(res) {
         if (res.data.success) {
           _this.query = res.data.list[0];
           _this.Ue.ready(function() {
@@ -114,7 +114,7 @@ export default {
     },
     reurl(url) {
       if (url.indexOf('base64') == -1) {
-        url = 'http://192.168.188.219:3000' + url;
+        url = 'http://localhost:3000' + url;
       }
       return url;
     }
@@ -124,7 +124,7 @@ export default {
     var _this = this;
     UE.delEditor('editor');
     this.Ue = UE.getEditor('editor', {
-      serverUrl: 'http://192.168.188.219:3000/controller',
+      serverUrl: 'http://localhost:3000/controller',
       autoHeightEnabled: false,
       toolbars: [
         [

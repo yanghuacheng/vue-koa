@@ -1,0 +1,43 @@
+{
+	"total": "integer",
+	"list": [{
+		"address": "深圳市南山区安保区",
+		"cameraIdx": "2",
+		"captureTime": "2019-5-20",
+		"facePosition": {
+			"start": {
+				"x": 907,
+				"y": 954
+			},
+			"width": 1920,
+			"end": {
+				"x": 750,
+				"y": 740
+			},
+			"height": 1080
+		},
+		"bigImageUrl": "images/zyxyr.png",
+		"trackId": "1",//人像跟踪ID
+		"latitude": "25",//维度
+		"videoId": "integer",//null
+		"score": "98%",
+		"sequence": "0",对象序列号，自动分配，默认0
+		"bigImageSerial": "string",//大图像序列
+		"regionId": "integer",//摄像头ID
+		"marker": "string",
+		"videoName": "南山区A口",
+		"imageUrl": "images/xyr2.png",
+		"resourceTypeId": "integer",
+		"videoSerial": "string",//视频序列
+		"imageSerial": "string",//图像序列
+		"longitude": "65"//经度
+	}]
+}
+
+
+
+
+
+
+
+{"faceInfo":{"end":{"x":295,"y":98},"image":{"height":1080,"url":"http://190.35.205.217:18181/g1/M00/01/ED/viPN2V3BHlKAdLOZAAArQ-fuOSE432.jpg","width":1920},"quality":-1.0,"start":{"x":206,"y":17}},"image":{"height":1080,"url":"http://190.35.205.217:18181/g1/M01/01/ED/viPN2V3BHlKAJlj7AAPfe6YvB0A334.jpg","width":1920},"target":[{"score":0.827848,"url":"http://190.35.205.201:30080/components/osg-default/_/sfd_684198e918b2414f94c9384cd207f000/20190926-193c7516-000a580ae0066a-0000bfc8-000010c0"}]}

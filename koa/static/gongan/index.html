@@ -1,0 +1,148 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="gongan/css/index.css">
+
+
+		<title>登录</title>
+
+	</head>
+
+	<body>
+		<!-- 弹窗 -->
+		<div class="alertmodel">
+			<p class="title">这是提示标题</p>
+			<button></button>
+		</div>
+		<div class="bjt"></div>
+		<div id="admin" class="adminlogin">
+
+			<header>
+				<!-- <img src="./all/jh.png" width="30" /> -->
+			</header>
+			<div class="login">
+				<p><input type="text" v-model="user" @blur="users()">
+					<font>账号:</font>
+				</p>
+				<p>
+					<input type="password" v-model="password" id='password' @blur="pass()">
+					<font>密码:</font>
+					<span id="tishi" style="">
+						<img src="./right/error.png" style="float: left;">
+						<a>密码错误，请重新输入</a>
+					</span>
+				</p>
+				<button class="submitBtn" @click="login()">登录</button>
+				<b>申请登录权限请联系管理员</b>
+			</div>
+			<div class="stars">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+		</div>
+		<script src="gongan/js/jquery2.2.4.min.js"></script>
+		<script src="gongan/js/jq.cookie.js"></script>
+		<script src="gongan/js/vue.min.js"></script>
+		<script src="gongan/js/md5.js"></script>
+		<!-- <script src="login.js"></script> -->
+		<script type="text/javascript">
+			function alertmodel(str) {
+				$('.alertmodel').addClass('show');
+				$('.alertmodel p').html(str);
+
+			}
+			$('.alertmodel button').click(function() {
+				$('.alertmodel').removeClass('show');
+				$('.submitBtn').removeClass('dlan');
+			})
+			$.cookie('Login', null);
+			var vm = new Vue({
+				el: "#admin",
+				data: {
+					user: '',
+					password: ''
+				},
+				methods: { //方法
+					login() {
+						var _this = this;
+						if (!this.user) {
+							$('#tishi').show();
+							$('#tishi').find('a').text('用户名不能为空');
+							return
+						}
+						if (!this.password) {
+							$('#tishi').show();
+							$('#tishi').find('a').text('用户密码不能为空');
+							return;
+						}
+						// 登录
+						$.ajax({
+							url: 'http://190.32.33.80:9092/tokens',
+							type: 'post',
+							data: JSON.stringify({
+								"code": _this.user,
+								"password": md5(_this.password + 'ec8bdc75987f4a21a3daf35cfef42fd4')
+							}),
+							contentType: "application/json",
+							dataType: "json",
+							success: function(data) {
+								if (data.status == 200) {
+									$.cookie('Login', true);
+									window.location.href = './all.html';
+								} else {
+									$('#tishi').show();
+									$('#tishi').find('a').text(data.msg + ',请重新输入');
+								}
+							},
+							error: function() {
+								$('#tishi').show();
+								$('#tishi').find('a').text('服务错误，请联系管理员');
+							}
+						})
+					},
+					users() {
+						if (!this.user) {
+							$('#tishi').show();
+							$('#tishi').find('a').text('用户名不能为空');
+						} else {
+							$('#tishi').hide();
+						}
+					},
+					pass() {
+						if (!this.password) {
+							$('#tishi').show();
+							$('#tishi').find('a').text('用户密码不能为空');
+						} else {
+							$('#tishi').hide();
+						}
+					}
+				},
+				mounted: function() { //加载完成时
+					var _self = this;
+					document.onkeydown = function(e) {
+						var key = window.event.keyCode;
+						if (key == 13) {
+							_self.login();
+						}
+					}
+				},
+				computed: { //计算属性
+
+				},
+				watch: { //监听属性
+
+				}
+			})
+		</script>
+
+
+	</body>
+
+</html>

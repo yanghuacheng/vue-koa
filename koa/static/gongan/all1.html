@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>南山公安数字沙盘</title>
+		<link rel="stylesheet" href="./css/slick.css">
+		<link rel="stylesheet" href="./css/slick-theme.css">
+		<link rel="stylesheet" href="./css/all.css">
+		<link rel="stylesheet" href="./css/left.css">
+		<link rel="stylesheet" href="./css/park.css">
+		<link rel="stylesheet" href="./alplayer/al.css">
+		<link rel="stylesheet" href="./css/right.css">
+		<link rel="stylesheet" href="./libs/Build/Cesium1/Widgets/widgets.css">
+		<link rel="stylesheet" href="css/right2.css">
+		<link rel="stylesheet" href="css/right.css">
+		<link rel="stylesheet" href="css/zuizong.css">
+		<link rel="stylesheet" href="css/toolbar.css">
+		<link rel="stylesheet" href="css/biaohui.css">
+		<link rel="stylesheet" href="css/slide-unlock.css">
+		<script src="js/jquery2.2.4.min.js"></script>
+		<script src="js/jquery.slideunlock.js"></script>
+		<script src="js/jq.cookie.js"></script>
+		<script type="text/javascript">
+			// alert(123)
+			function resize() {
+				var bili = $(window).width() / 1920;
+				$('html').css('font-size', 16 * bili + 'px');
+			};
+			window.onresize = resize
+			resize();
+		</script>
+		<style>
+			.qjbutton button{
+			background: #000;
+			color: #fff
+		}
+		#close {
+			position: fixed;
+			z-index: 100000010000;
+			right: 12%;
+			top: 10%;
+			color: #fff;
+			font-size: 50px;
+			display: none;
+			cursor: pointer;
+		}
+		</style>
+	</head>
+
+	<body>
+		<!-- <div id="vue"> -->
+		<iframe src="http://190.35.195.80/xiaoan?p=209275d69093329245"></iframe>
+		<div class="qjbutton" style="z-index: 1000000000000">
+			<button type="button">全景一</button>
+			<button type="button">全景二</button>
+			<button type="button">全景三</button>
+			<button type="button">全景四</button>
+		</div>
+		<p id="close">x</p>
+
+		<div class="container-fluid containerWidth" id="containerFluid">
+			<header>
+				<!-- <img src="./all/jh.png" width="30" /> -->
+			</header>
+			<!-- 右边 -->
+
+
+			<!-- 中间 -->
+			<div class="middle middleWidth " id="middle">
+
+				<div id="main" class="map ">
+					<div class="tuli">
+
+
+					</div>
+					<ul class="flyul">
+						<li class="zhuye" style="position: relative">
+							<img src="images/无人机背景转圈.png" />
+							<img src="images/login/首页.png" style="position:absolute;left: 0;top: 0;margin: 0" />
+
+						</li>
+						<li class="clickfly" style="position: relative">
+							<img src="images/无人机背景转圈.png" />
+							<img src="images/login/无人机.png" style="position:absolute;left: 0;top: 0;margin: 0" />
+						</li>
+						<li class="guanlituceng" style="position: relative">
+							<img src="images/无人机背景转圈.png" />
+							<img src="./right/图层管理.png" style="position:absolute;left: 0;top: 0;margin: 0" />
+						</li>
+					</ul>
+					<div class="wrenvideo">
+						<div class="prism-player" id="wrenvideo"></div>
+					</div>
+				</div>
+
+				<!-- 视频放大 -->
+				<div class="bigvideo">
+					<div class="prism-player" id="bigplayVideo"></div>
+					<span><img src="images/fdgb.png"></span>
+				</div>
+				<!-- 底部阴影 -->
+				<div class="bottom">
+				</div>
+			</div>
+
+			<!-- 高空视频 -->
+			<div class="Highvideo">
+				<div id="Highvideo"></div>
+			</div>
+
+
+			<!-- 工具栏按钮 -->
+			<div class="Toolbarlogo">
+				<img src="./right/工具栏logo.png" alt="">
+			</div>
+
+			<div class="Toolbar">
+				<div class="Toolbarnav">
+					<ul>
+						<li><img src="./right/相机复位.png" alt=""></li>
+						<li><img src="./right/地图标绘.png" alt=""></li>
+						<li><img src="./right/测量.png" alt=""></li>
+						<li><img src="./right/漫游.png" alt=""></li>
+						<li><img src="./right/顶视图.png" alt=""></li>
+						<li><img src="./right/设置.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="dtbh">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>
+
+
+
+				<!-- 地图标绘 -->
+				<div class="plot">
+					<h5>
+						地图标绘
+						<img src="./right/guanbi.png" alt="关闭">
+					</h5>
+					<div class="conthui">
+						<div class="tab-item">
+							<span class="active"></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="tubiao">
+							<span>标记图标:</span>
+							<p>
+								<img src="./gongju/biaoshix.png" alt="">
+							</p>
+						</div>
+						<ul class="tabsel">
+							<li class="selimg">
+								<dl>
+									<dd class="active">
+										<img src="./gongju/biaoshix1.png" alt="">
+									</dd>
+									<dd>
+										<img src="./gongju/biaoshix.png" alt="">
+									</dd>
+									<dd>
+										<img src="./gongju/biaoshix2.png" alt="">
+									</dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+									<dd></dd>
+								</dl>
+								<button>返回</button>
+							</li>
+							<li class="lianxian huixian">
+								<h5>连线效果</h5>
+								<p>
+									<span>线型:</span>
+									<select>
+										<option value ="1">━━━实线</option>
+										<option value ="2">•••••虚线</option>
+										<option value ="3">→→箭头</option>
+									</select>
+								</p>
+								<p>
+									<span>背景:</span>
+									<select>
+										<option value ="1">红色</option>
+										<option value ="2">紫色</option>
+										<option value ="3">青色</option>
+										<option value ="4">蓝色</option>
+										<option value ="5">绿色</option>
+										<option value ="6">橙色</option>
+									</select>
+								</p>
+								<p>
+									<span>效果:</span>
+									<select>
+										<option value ="1">发光</option>
+									</select>
+								</p>
+							</li>
+						</ul>
+						<li class="huixian">
+								<h5>绘线设置</h5>
+								<p>
+									<span>宽度:</span>
+									<select>
+										<option value ="1">中等</option>
+									</select>
+								</p>
+								<p>
+									<span>颜色:</span>
+									<select>
+										<option value ="1">红色</option>
+										<option value ="2">紫色</option>
+										<option value ="3">青色</option>
+										<option value ="4">蓝色</option>
+										<option value ="5">绿色</option>
+										<option value ="6">橙色</option>
+									</select>
+								</p>
+								<p>
+									<span>透明度:</span>
+									<select>
+										<option value ="1">中等</option>
+									</select>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 设置面板 -->
+				<div class="setboxs">
+					<h5>
+						设置面板
+						<img src="./right/guanbi.png" alt="关闭">
+					</h5>
+					<div class="secont">
+						<div class="setsel">
+							<h5>
+								初始位置
+							</h5>
+							<ul>
+								<li class="active">选择位置0</li>
+								<li>选择位置1</li>
+								<li>选择位置2</li>
+							</ul>
+						</div>
+						<div class="setsel dengguang">
+							<h5>
+								灯光强度
+							</h5>
+							<div>
+								<div id="mousemove">
+									<div id="slider" style="overflow: unset !important;">
+									    <div id="slider_bg"></div>
+									    <span id="label"></span> <span id="labelTip"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+<script type="text/javascript">
+	$(function () {
+	    var slider = new SliderUnlock("#slider",{
+				
+			},function(){
+	
+			});
+	    slider.init();
+	})
+</script>
+
+
+
+
+
+
+
+
+
+			<!-- 弹窗 -->
+			<div class="alertmodel">
+
+				<p class="title">这是提示标题</p>
+				<button></button>
+			</div>
+
+			<div id="tmv">
+				<button>x</button>
+				<div id="thermalMapVideo"></div>
+			</div>
+
+		</div>
+		<!-- </div> -->
+
+		<!-- <div class="zz_point2">
+			<div class="zz_point2_adress">
+				<img src="./images/xianyir.png" alt="">
+			</div>
+			<div class="zz_point2_number">
+				<span>12</span>
+			</div>
+		</div> -->
+
+		<!-- 警力图标 -->
+		<!-- <div class="jingli">
+			<div>
+				<span class="jingli-adr">世界之窗交警大队</span> 
+				<span class="jingli-man">25<span>人</span></span>
+			</div>
+		</div> -->
+
+
+		<script>
+			if (!$.cookie('Login') || $.cookie('Login') === 'null') {
+				// window.location.href = './index.html';
+			};
+		</script>
+		<script src="./js/vue.min.js"></script>
+		<!-- <script src="./alplayer/al.js"></script> -->
+		<!-- <script src="./js/videoPlay.js"></script> -->
+		<!-- <script src="./libs/Build/Cesium1/Cesium.js"></script> -->
+		<!-- <script src="./js/xagis.js"></script>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script src="js/stomp.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/config.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sockjs.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lj.js"></script>
+		<script src="js/left.js"></script> -->
+		<!-- <script src="./js/gisInit.js"></script> -->
+		<!-- <script src="js/park.js"></script> -->
+		<!-- <script src="js/zuizong.js"></script>	 -->
+		<script src="js/gongju.js"></script>
+<!-- 
+		<script src="js/dji.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/right.js"></script>
+
+
+
+		<script src="js/whz.js"></script>
+
+		<script src="js/yhc.js"></script>
+		<script src="js/new.js"></script> -->
+
+	</body>
+
+</html>

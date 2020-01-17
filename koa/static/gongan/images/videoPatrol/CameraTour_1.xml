@@ -1,0 +1,135 @@
+<CameraTour>
+    <Version>1</Version>
+    <Waypoint ID="0">
+        <Duration>5.000000</Duration>
+        <X>15339.328125</X>
+        <Y>35737.828125</Y>
+        <Z>1084.099243</Z>
+        <Heading>350.300171</Heading>
+        <Pitch>-87.316757</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="1">
+        <Duration>5.000000</Duration>
+        <X>15501.295898</X>
+        <Y>35465.265625</Y>
+        <Z>269.389893</Z>
+        <Heading>327.061768</Heading>
+        <Pitch>-43.197132</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="2">
+        <Duration>5.000000</Duration>
+        <X>15629.291992</X>
+        <Y>35713.250000</Y>
+        <Z>6.892125</Z>
+        <Heading>30.546560</Heading>
+        <Pitch>9.326477</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="3">
+        <Duration>5.000000</Duration>
+        <X>15781.384869</X>
+        <Y>35792.022152</Y>
+        <Z>8.300421</Z>
+        <Heading>291.456360</Heading>
+        <Pitch>-0.937335</Pitch>
+        <Roll>0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="4">
+        <Duration>5.000000</Duration>
+        <X>15624.151367</X>
+        <Y>35945.523438</Y>
+        <Z>15.660536</Z>
+        <Heading>276.276581</Heading>
+        <Pitch>-2.081202</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="5">
+        <Duration>5.000000</Duration>
+        <X>15550.691661</X>
+        <Y>36096.067797</Y>
+        <Z>9.614954</Z>
+        <Heading>249.808454</Heading>
+        <Pitch>3.428362</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="6">
+        <Duration>30.000000</Duration>
+        <X>15363.953574</X>
+        <Y>36058.411118</Y>
+        <Z>5.873269</Z>
+        <Heading>213.434084</Heading>
+        <Pitch>-6.548493</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="7">
+        <Duration>5.000000</Duration>
+        <X>15009.067416</X>
+        <Y>35763.744167</Y>
+        <Z>5.853552</Z>
+        <Heading>206.085800</Heading>
+        <Pitch>-3.111951</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="8">
+        <Duration>5.000000</Duration>
+        <X>14981.879883</X>
+        <Y>35748.710938</Y>
+        <Z>9.413117</Z>
+        <Heading>138.712311</Heading>
+        <Pitch>-7.362236</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="9">
+        <Duration>5.000000</Duration>
+        <X>15059.343750</X>
+        <Y>35579.300781</Y>
+        <Z>6.840942</Z>
+        <Heading>137.854874</Heading>
+        <Pitch>0.086161</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="10">
+        <Duration>5.000000</Duration>
+        <X>15103.377930</X>
+        <Y>35508.855469</Y>
+        <Z>9.550140</Z>
+        <Heading>61.278099</Heading>
+        <Pitch>-7.348565</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+    <Waypoint ID="11">
+        <Duration>5.000000</Duration>
+        <X>15052.124500</X>
+        <Y>35428.340595</Y>
+        <Z>71.672707</Z>
+        <Heading>27.995723</Heading>
+        <Pitch>-15.649927</Pitch>
+        <Roll>-0.000000</Roll>
+        <FlyMode>FlySmooth</FlyMode>
+        <WKT>PROJCS["WGS_1984_Transverse_Mercator",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["central_meridian",103.8333333333333],PARAMETER["false_easting",28001.642],PARAMETER["false_northing",38744.572],PARAMETER["latitude_of_origin",1.366666666666667],PARAMETER["scale_factor",1],UNIT["metre",1]]</WKT>
+    </Waypoint>
+</CameraTour>

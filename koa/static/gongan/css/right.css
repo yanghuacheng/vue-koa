@@ -1,0 +1,30 @@
+.pushbox{
+	width: 60%;
+	height: 235px;
+	position: fixed;
+	z-index: 1000000000;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+.btpush{
+	background: url(../right/buttonbg.png) no-repeat center center;
+	background-size: 100% 100%;
+	max-width: 90%;
+	width: auto;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+}
+.gun-ami>div{width: auto;padding:0 10px;}
+.gun-ami>#gun-lf, #gun-lf-act{
+	left: -30px;
+}
+.gun-ami>#gun-rt, #gun-rt-act{
+	right: -30px;
+}
+

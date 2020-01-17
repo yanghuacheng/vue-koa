@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/jquery-3.0.0.min.js"></script>
+    <script src="../js/forPage.js"></script>
+    <title>深圳市人才公园</title>
+</head>
+<body style='background-image:url(../images/stars.jpg) no-repeat'>
+    <!--页面头部 start-->
+    <!--<div class="conHead">
+		<div class="mianTit"><img src="../images/title.png" alt="" /><h2>罗湖东门立体防控平台</h2></div>
+		&lt;!&ndash;<div class="headPng"></div>&ndash;&gt;
+	</div>-->
+    <!--页面头部 end-->
+    <!--三维主体 start-->
+    <div id="main" style="width: 100%; height: 100%; top:0px;">
+        <object  id="plugin" type="application/x-cm-3d8" style="width:100%; height:100%; top: 0px;"> </object>
+   <!-- <div style="z-index:999;position: absolute;top:0px;">
+        <img id="3dmg" style="height: 100%; width: 100%;"   onclick="showMap()"/> -->
+        <!--<img  id="3dmg" src="../images/南山标题.png" />-->
+    </div>
+   <div id="iframeDiv"  style="z-index:999;position: absolute;top:0px; display:none;">
+   <!--  <div style="position:absolute; top:0px;width:100%; height:30px; background-color:Black;" onclick="closePanoramaHtml() ">wwwwwwwwwwwwwwwww</div>-->
+   
+    <iframe id="iframeId" height="100%" width="100%" src="https://gz.kangyun3d.com/projects/nsxza/"></iframe>
+    </div>
+ <!--  </div>-->
+   
+    <!--三维主体 end-->
+    <!-- <script src="../js/config.min.js"></script> -->
+    <script src="../js/config.js"></script>
+    <script src="../js/cmvectorenum.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/CMTree.js"></script>
+
+    <!-- <script src="../dist/basemodel.bundle.js"></script>
+	<script src="../dist/htmlwindows.bundle.js"></script>
+	<script src="../dist/tools.bundle.js"></script>-->
+    <script src="../js/basemodel/baseinitmodel.js"></script>
+    <script src="../js/basemodel/ceploader.js"></script>
+    <script src="../js/basemodel/subhtml.js"></script>
+    <script src="../js/basemodel/maplayers.js"></script>
+    <script src="../js/basemodel/camera.js"></script>
+    <script src="../js/basemodel/presentation.js"></script>
+    <script src="../js/tools/uirenders.js"></script>
+    <script src="../js/tools/basetools.js"></script>
+    <script src="../js/tools/interact.js"></script>
+    <script src="../js/tools/sectionmeasure.js"></script>
+    <script src="../js/tools/view.js"></script>
+    <script src="../js/tools/layeropacity.js"></script>
+    <script src="../js/tools/FocusSet.js"></script>
+    <script src="../js/tools/ConstructorEdit.js"></script>
+    <script src="../js/tools/ModelLibrary.js"></script>
+    <script src="../js/htmlwindows/importantperson.js"></script>
+    <script src="../js/htmlwindows/plans.js"></script>
+    <script src="../js/htmlwindows/linktovideo.js"></script>
+    <script src="../js/htmlwindows/caselinks.js"></script>
+    <script src="../js/tools/particlemodel.js"></script>
+    <script src="../js/tools/dynamics.js"></script>
+    <script src="../js/tools/recordscene.js"></script>
+    <script src="../js/tools/labels.js"></script>
+    <script src="../js/tools/interactgeometry.js"></script>
+    <script src="../js/tools/TerrainOperation.js"></script>
+    <script src="../js/tools/SceneParameters.js"></script>
+    <script src="../js/htmlwindows/toolbar.js"></script>
+    <script src="../js/htmlwindows/openedlayerlist.js"></script>
+    <script src="../js/htmlwindows/equipmentpoints.js"></script>
+    <!--  <script src="../js/basemodel/pipeLine.js"></script>-->
+    <script src="../js/htmlwindows/smartbuilding.js"></script>
+    <script src="../js/htmlwindows/ctwing.js"></script>
+    <script src="../js/htmlwindows/fireSafty.js"></script>
+    <script src="../js/basemodel/mobileConnect.js"></script>
+    <!-- ghy++三维 -->
+    <script src="../js/tools/heatMap.js"></script>
+    <script src="../js/htmlwindows/bottompanelJs.js"></script>
+    <script src="../js/tools/pipeLine.js"></script>
+    <script src="../js/tools/commonTools.js"></script>
+    <script src="../js/thirdparts/drawboard/download.js"></script>
+    <script src="../js/thirdparts/sockjs.min.js"></script>
+    <script src="../js/thirdparts/stomp.min.js"></script>
+    <script type="text/javascript">
+
+        var websocket = null;
+        var ip = window.location.host.split(":")[0];
+
+    
+    </script>
+</body>
+</html>

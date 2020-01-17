@@ -1,0 +1,220 @@
+{
+  "status": 200,
+  "msg": "操作成功！",
+  "describe": null,
+  "currentPage": 0,
+  "pageSize": 0,
+  "totalPage": 0,
+  "totalRows": 0,
+  "data": [
+    {
+      "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+      "point_line_surface_type": 3,
+      "poinLineSurfaceEntities": [
+        {
+          "point_line_surface_type": 3,
+          "sort": 3,
+          "z_pont": "13.035",
+          "creater": "",
+          "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+          "line_type": 0,
+          "id": 36,
+          "iconEntity": {},
+          "icon_id": 0,
+          "color": "#FF0000",
+          "alpha": "0.2",
+          "x_pont": "113.969807",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537628",
+          "note": "面的备注"
+        },
+        {
+          "point_line_surface_type": 3,
+          "sort": 1,
+          "z_pont": "13.448",
+          "creater": "",
+          "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+          "line_type": 0,
+          "id": 32,
+          "iconEntity": {},
+          "icon_id": 0,
+          "color": "#FF0000",
+          "alpha": "0.2",
+          "x_pont": "113.969844",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.538065",
+          "note": "面的备注"
+        },
+        {
+          "point_line_surface_type": 3,
+          "sort": 0,
+          "z_pont": "13.099",
+          "creater": "",
+          "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+          "line_type": 0,
+          "id": 31,
+          "iconEntity": {},
+          "icon_id": 0,
+          "color": "#FF0000",
+          "alpha": "0.2",
+          "x_pont": "113.970165",
+          "create_time": "2019-12-26 15:01:03",
+          "y_pont": "22.537889",
+          "note": "面的备注"
+        },
+        {
+          "point_line_surface_type": 3,
+          "sort": 4,
+          "z_pont": "140765",
+          "creater": "",
+          "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+          "line_type": 0,
+          "id": 38,
+          "iconEntity": {},
+          "icon_id": 0,
+          "color": "#FF0000",
+          "alpha": "0.2",
+          "x_pont": "113.970030",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537693",
+          "note": "面的备注"
+        },
+        {
+          "point_line_surface_type": 3,
+          "sort": 2,
+          "z_pont": "13.408",
+          "creater": "",
+          "parentid": "482c8ce0286a4ddab77e08f6e4e330e9",
+          "line_type": 0,
+          "id": 34,
+          "iconEntity": {},
+          "icon_id": 0,
+          "color": "#FF0000",
+          "alpha": "0.2",
+          "x_pont": "113.969677",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537808",
+          "note": "面的备注"
+        }
+      ]
+    },
+    {
+      "parentid": "cd015ece81e249329d6371b117d8fbb4",
+      "point_line_surface_type": 2,
+      "poinLineSurfaceEntities": [
+        {
+          "point_line_surface_type": 2,
+          "sort": 3,
+          "z_pont": "18.642",
+          "creater": "",
+          "parentid": "cd015ece81e249329d6371b117d8fbb4",
+          "line_type": 0,
+          "id": 37,
+          "iconEntity": {
+            "id": 6,
+            "create_time": "2019-12-25 16:50:45",
+            "url": "http://192.168.188.152:8080/party_masses_storage/9d335b82-08dd-4263-b787-a793fcbd3a87.png"
+          },
+          "icon_id": 6,
+          "color": "#FF00FF",
+          "alpha": "0.7",
+          "x_pont": "113.970236",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537300",
+          "note": "线测试备注3"
+        },
+        {
+          "point_line_surface_type": 2,
+          "sort": 2,
+          "z_pont": "18.937",
+          "creater": "",
+          "parentid": "cd015ece81e249329d6371b117d8fbb4",
+          "line_type": 0,
+          "id": 35,
+          "iconEntity": {
+            "id": 6,
+            "create_time": "2019-12-25 16:50:45",
+            "url": "http://192.168.188.152:8080/party_masses_storage/9d335b82-08dd-4263-b787-a793fcbd3a87.png"
+          },
+          "icon_id": 6,
+          "color": "#FF00FF",
+          "alpha": "0.7",
+          "x_pont": "113.970549",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537446",
+          "note": "线测试备注2"
+        },
+        {
+          "point_line_surface_type": 2,
+          "sort": 1,
+          "z_pont": "16.025",
+          "creater": "",
+          "parentid": "cd015ece81e249329d6371b117d8fbb4",
+          "line_type": 0,
+          "id": 33,
+          "iconEntity": {
+            "id": 6,
+            "create_time": "2019-12-25 16:50:45",
+            "url": "http://192.168.188.152:8080/party_masses_storage/9d335b82-08dd-4263-b787-a793fcbd3a87.png"
+          },
+          "icon_id": 6,
+          "color": "#FF00FF",
+          "alpha": "0.7",
+          "x_pont": "113.970471",
+          "create_time": "2019-12-26 15:01:04",
+          "y_pont": "22.537703",
+          "note": "线测试备注1"
+        },
+        {
+          "point_line_surface_type": 2,
+          "sort": 0,
+          "z_pont": "15.143",
+          "creater": "",
+          "parentid": "cd015ece81e249329d6371b117d8fbb4",
+          "line_type": 0,
+          "id": 30,
+          "iconEntity": {
+            "id": 6,
+            "create_time": "2019-12-25 16:50:45",
+            "url": "http://192.168.188.152:8080/party_masses_storage/9d335b82-08dd-4263-b787-a793fcbd3a87.png"
+          },
+          "icon_id": 6,
+          "color": "#FF00FF",
+          "alpha": "0.7",
+          "x_pont": "113.970653",
+          "create_time": "2019-12-26 15:01:03",
+          "y_pont": "22.537876",
+          "note": "线测试备注0"
+        }
+      ]
+    },
+    {
+      "parentid": "da15ed0421154c5ebc766ae74d241891",
+      "point_line_surface_type": 1,
+      "poinLineSurfaceEntities": [
+        {
+          "point_line_surface_type": 1,
+          "sort": 0,
+          "z_pont": "15.143",
+          "creater": "",
+          "parentid": "da15ed0421154c5ebc766ae74d241891",
+          "line_type": 0,
+          "id": 20,
+          "iconEntity": {
+            "id": 6,
+            "create_time": "2019-12-25 16:50:45",
+            "url": "http://192.168.188.152:8080/party_masses_storage/9d335b82-08dd-4263-b787-a793fcbd3a87.png"
+          },
+          "icon_id": 6,
+          "color": "#FF0000",
+          "alpha": "0.1",
+          "x_pont": "113.970653",
+          "create_time": "2019-12-26 14:19:49",
+          "y_pont": "22.537879",
+          "note": "测试数据备注"
+        }
+      ]
+    }
+  ],
+  "result": null
+}

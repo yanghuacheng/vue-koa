@@ -1,0 +1,6 @@
+##ignore thi file##
+static/models/
+images/WindowsNoEditor
+web.config
+node_modules/
+static/

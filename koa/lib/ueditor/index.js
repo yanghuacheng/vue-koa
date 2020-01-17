@@ -2,6 +2,8 @@
 var config = require('./config');
 var upload = require('../upload');
 var path = require('path');
+var getdata = require('../getdata');
+// 
 var getdate = function(){
 	const date = new Date();
 	const map = {
@@ -28,18 +30,18 @@ module.exports = (dir)=>{
 		}else if(action === config.scrawlActionName){//涂鸦类型图片
 			
 		}else if(action === config.catcherActionName){//抓取远程图片
-			
-		}else if(action === 'uploadimage'){//表单上传
+			var urllst = ctx.request.body;
+			console.log(urllst)
+			// var data = getdata();
+		}else if(action === 'uploadimage' || config.videoActionName){//表单上传
 			var files = ctx.request.files['upfile'];
 			var obj = upload([files],dir);
 			Object.assign(obj, {url:'/images/' + newdir + '/' + obj.title});
 			result = obj;
-		}else if(action === config.videoActionName){//视频上传
-			
 		}else{
 			result = {state: 'FAIL'}
 		};
-		console.log([callback])
+		// console.log([callback])
 		ctx.body = callback ? [callback] + '(' + JSON.stringify(result) + ')' : JSON.stringify(result)
 	}
 }

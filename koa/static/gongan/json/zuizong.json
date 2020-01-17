@@ -1,0 +1,35 @@
+{
+	"total": "integer",
+	"list": [{
+		"address": "string",
+		"cameraIdx": "integer",
+		"captureTime": "integer",
+		"facePosition": {
+			"start": {
+				"x": "integer",
+				"y": "integer"
+			},
+			"width": "integer",
+			"end": {
+				"x": "integer",
+				"y": "integer"
+			},
+			"height": "integer"
+		},
+		"bigImageUrl": "string",
+		"trackId": "string",
+		"latitude": "number",
+		"videoId": "integer",
+		"score": "number",
+		"sequence": "integer",
+		"bigImageSerial": "string",
+		"regionId": "integer",
+		"marker": "string",
+		"videoName": "string",
+		"imageUrl": "string",
+		"resourceTypeId": "integer",
+		"videoSerial": "string",
+		"imageSerial": "string",
+		"longitude": "number"
+	}]
+}

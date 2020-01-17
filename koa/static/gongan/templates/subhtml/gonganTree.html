@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+    }
+    .layerManagement{
+        width: 243.4px;
+        height: 323.4px;
+        background: url('../../images/gongan/BG.png') no-repeat;
+        /*opacity: 0.65;*/
+        /*background-color:#6B717C;*/
+    }
+    .layerManagement-head{
+        position: relative;
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+        /* background: #ff00f0; */
+    }
+    .layerManagement-head img{
+        position: absolute;
+        left: 10px;
+        top: 15px;
+    }
+    .layerManagement-head h3{
+        position: relative;
+        height: 55px;
+        line-height: 55px;
+        margin-left: 47px; 
+        color: #ffffff;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .layerManagement-box ul{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 265px;
+        /* background: #ff00f0; */
+    }
+    .layerManagement-box ul li{
+        position: relative;
+        width: 100%;
+        height: 66px;
+        line-height: 66px;
+        list-style: none;
+        
+    }
+    .layerManagement-box ul li >img{
+        position: absolute;
+        left: 10px;
+        top: 18px;
+    }
+    .layerManagement-box ul li:nth-child(1) >img{
+        top: 20px;
+    }
+    .layerManagement-box ul li span{
+        color: #ffffff;
+        margin-left: 50px;
+        line-height: 66px;
+        height: 66px;
+        font-size: 16px;
+    }
+    .layerManagement-box ul li a{
+        position: relative;
+        float: right;
+        margin-right: 10px;
+        width: 32px;
+        height: 16px;
+        /* margin-top: 25px; */
+        border: none;
+        background: none;
+        margin-top: 2px;
+    }
+    .layerManagement-box ul li a img{
+        width: 32px;
+        height: 16px;
+    }
+    </style>
+</head>
+<body>
+    <div class="layerManagement">
+        <div class="layerManagement-head">
+            <img src="../../images/gongan/图层管理.png">
+            <h3>图层管理</h3>
+        </div>
+        <div class="layerManagement-box">
+            <ul>
+                <li>
+                    <img src="../../images/gongan/监控图层.png">
+                    <span>监控图层</span>
+                    <a><img src="../../images/gongan/关.png"> </a>
+                </li>
+                <li>
+                    <img src="../../images/gongan/重点位置.png">
+                    <span>重点位置</span>
+                    <a><img src="../../images/gongan/关.png"></a>
+                </li>
+                <li>
+                    <img src="../../images/gongan/烟花表演.png">
+                    <span>烟花表演</span>
+                    <a><img src="../../images/gongan/关.png"></a>
+                </li>
+                <li>
+                    <img src="../../images/gongan/文艺汇演.png">
+                    <span>文艺汇演</span>
+                    <a><img src="../../images/gongan/关.png"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script>
+       var pw= external.parentWindow;
+    $(document).ready(function(){
+        let layerManagement = {
+            initUI:function(){
+                //    开关点击事件触发
+               $('.layerManagement-box ul li a').on('click',function(){
+                   let index = $(this).parent().index();
+                    // console.log('点击了第',index,'个开关');
+                    let str = '点击了第'+ index+'个开关';
+              
+                    //如果已经是开，就替换成关
+                    if ($(this).find('img').attr('src') == "../../images/gongan/开.png") {
+                        $(this).find('img').attr('src', $(this).find('img').attr('src').replace(/开/, '关'));
+                        pw.window._hook.plugins.baseinitmodel.showTree(10);
+                   }else{
+                        $(this).find('img').attr('src', $(this).find('img').attr('src').replace(/关/, '开'));
+                      
+                        pw.window._hook.plugins.baseinitmodel.showTree(index);
+                       
+                   }
+                   
+               }) 
+            }
+        }
+        layerManagement.initUI();
+    })
+    </script>
+</body>
+</html>

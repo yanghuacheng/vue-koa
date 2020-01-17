@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport"   content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+     <title>用户测试用例</title>
+     <link rel="stylesheet" href="./al.css" />
+     <script charset="utf-8" type="text/javascript" src="./al.js"></script>
+    </head>
+    <body>
+        <div  class="prism-player" id="J_prismPlayer"></div>
+        <script>
+            var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '700px',
+			 width: '600px',
+            autoplay: true,
+            //支持播放地址播放,此播放优先级最高
+            source : 'rtmp://190.32.33.80:9935/live/44030552001320002321',
+            
+            },function(player){
+                console.log('播放器创建好了。')
+           });
+        </script>
+    </body>
+</html>

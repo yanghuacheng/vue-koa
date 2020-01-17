@@ -1,0 +1,249 @@
+.plot{
+	width: 320px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 120px;
+	right: -20%;
+	background: url(../right/测绘bg.png) no-repeat;
+	background-size:100% 100% ;
+	z-index: 1000000;
+}
+.plot>h5{
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-indent: 15px;
+	font-weight: 500;
+	width: 99%;
+	margin: 0 auto;
+	border-bottom: 1px solid #093a5e;
+}
+.plot>h5 img{
+	float: right;
+	margin-top:15px ;
+	margin-right: 10px;
+	cursor: pointer;
+	
+}
+.conthui{
+	padding: 15px;
+}
+.tab-item{
+	overflow: hidden;
+	background-color: rgb(31,46,69);
+}
+.tab-item span{
+	width: 94px;
+	/* margin-left: 7px; */
+	height: 30px;
+	display: block;
+	float: left;
+	border: 1px solid #093a5e;
+	text-align: center;
+	cursor: pointer;
+}
+.tab-item span:nth-of-type(1){background: url(../gongju/bianshi.png) no-repeat center center;float: left;}
+.tab-item span:nth-of-type(2){background: url(../gongju/区域.png) no-repeat center center;}
+.tab-item span:nth-of-type(3){background: url(../gongju/guihua.png) no-repeat center center;float: right;}
+.tab-item span:nth-of-type(1).active{background:#103145 url(../gongju/bianshi.png) no-repeat center center;border: 1px solid #156290;}
+.tab-item span:nth-of-type(2).active{background:#103145 url(../gongju/区域.png) no-repeat center center;border: 1px solid #156290;}
+.tab-item span:nth-of-type(3).active{background:#103145 url(../gongju/guihua.png) no-repeat center center;border: 1px solid #156290;}
+
+.tab-item span p{
+	    width: 62px;
+	    height: 18px;
+	    background-color: #365e7d;
+	    border-radius: 2px;
+	    font-size: 12px;
+	    font-weight: normal;
+	    font-stretch: normal;
+	    letter-spacing: 1px;
+	    color: #ffffff;
+	    padding: 0px;
+	    margin-left: 47px;
+	    display: block;
+	    text-align: center;
+	    margin-top: 25px;
+	    position: absolute;
+		display: none;
+	
+}
+
+.tab-item span:hover p{display: block;}
+
+.tubiao{
+	height: 85px;
+	line-height: 85px;
+	border-bottom: 1px solid #093a5e;
+}
+.tubiao span{
+	color: #fff;font-size: 14px;
+}
+.tubiao p{
+	float: right;
+	margin-top: 15px;
+	border: 1px solid #093a5e;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	background-color: rgb(15,31,44,0.5)
+}
+.tubiao p:before{
+	content: '◢';
+	position: absolute;
+	bottom: -2px;
+	right: -1px;
+	display: block;
+	height: 10px;
+	text-align: center;
+	line-height: 10px;
+	color: #427eb0;
+}
+.tabsel{
+	
+}
+.tabsel li{
+	clear: both;
+}
+.tabsel li dl{overflow: hidden;margin-top: 15px;}
+.tabsel li dd{
+	margin:0 3px ;
+	width: 50px;
+	height: 50px;
+	float: left;
+	border: 1px solid #093a5e;
+	margin-bottom: 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(15,31,44,0.7);
+}
+.tabsel li dd img{margin-top: 3px;}
+.tabsel li dd.active{
+	border: 1px solid #156290;
+}
+.tabsel li:first-of-type button{
+	font-size: 12px;
+	color: #00c0ff;
+	background: none;
+	border: 0;
+	padding-bottom: 5px;
+	cursor: pointer;
+	outline: none;
+}
+.huixian>h5{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+}
+.huixian>p{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.huixian>p span{float: left;display: block;width: 60px;}
+.huixian>p select{
+	float: left;
+	/* margin-left: 25px; */
+	width: 95px;
+	background: #0b1a2b;
+	border: 0;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	padding-left: 5px;
+	cursor: pointer;
+}
+.setboxs{
+	width: 320px;
+	overflow: hidden;
+	position: fixed;
+    bottom: 120px;
+	right: -20%;
+	background: url(../left/gl-bottom.png) no-repeat;
+	background-size:100% 100% ;
+	z-index: 1000001;
+}
+.secont{
+	padding: 15px;
+	padding-top: 7px;
+}
+.setboxs>h5{
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-indent: 15px;
+	font-weight: 500;
+	width: 99%;
+	margin: 0 auto;
+	border-bottom: 1px solid #093a5e;
+}
+.setboxs>h5 img{
+	float: right;
+	margin-top:15px ;
+	margin-right: 10px;
+	cursor: pointer;
+	
+}
+.setsel{}
+.setsel>h5{
+	/* height: 30px;
+	line-height: 30px; */
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+}
+.setsel ul li{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #a2d0f0;
+	cursor: pointer;
+}
+.setsel ul li:before{
+	content: '';
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	float: left;
+	border: 1px solid #0c739c;
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.setsel ul li.active{color: #fff;}
+.setsel ul li.active:before{
+	content: '✔';
+	background: #00a2ff;
+	color: #fff;
+}
+.dengguang >h5{
+	height: 50px;
+	line-height: 50px;
+}
+.dengguang >div{
+	/* overflow: hidden; */
+	height: 40px;
+	/* position: relative; */
+}
+.dengguang >div:before{
+	content: url(../gongju/summer.png);
+	float: left;
+	display: block;
+	margin-top: -7px;
+}
+#label{
+	background: url(../gongju/faguang.png) no-repeat center center;background-size: 100% 100%;
+}
+#mousemove{width: calc(100% - 22px); margin-left: 22px;height: 100%;position: relative;z-index: 1000;}
